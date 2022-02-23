@@ -1,7 +1,11 @@
 # OpenFrameworks testbench
 
 ## Build
+1. Define OpenFrameworks root in `config.make`
+2. Run `make` or `bear -- make` for build definitions
+
+## Run
 ```
-export OF_ROOT=<openFrameworks_path>
-bear -- make
+cd bin
+./of
 ```
